@@ -3,3 +3,5 @@ streamlit
 psutil
 pandas
 plotly
+
+pytesseract
