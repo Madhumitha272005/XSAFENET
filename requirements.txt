@@ -1,11 +1,11 @@
 
 streamlit
-pytesseract
-opencv-python-headless
-pandas
 numpy
+pandas
 Pillow
-psutil
-requests
-scikit-learn
+opencv-python-headless
 ultralytics
+pytesseract
+scikit-learn
+requests
+psutil
