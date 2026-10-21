@@ -8,3 +8,4 @@ Pillow
 psutil
 requests
 scikit-learn
+ultralytics
