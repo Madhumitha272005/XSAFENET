@@ -3,9 +3,13 @@ streamlit
 numpy
 pandas
 Pillow
-opencv-python-headless==4.12.0.88
-ultralytics
+opencv-python-headless
 pytesseract
+ultralytics
 scikit-learn
-requests
+streamlit-drawable-canvas
 psutil
+plotly
+requests
+matplotlib
+shap
