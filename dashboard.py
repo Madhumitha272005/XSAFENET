@@ -3,7 +3,17 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = (
     r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 )
+import shutil
+import pytesseract
 
+# Find Tesseract automatically
+tesseract_path = shutil.which("tesseract")
+
+# Use the Windows installation path if needed
+if tesseract_path is None:
+    tesseract_path = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+pytesseract.pytesseract.tesseract_cmd = tesseract_path
 import streamlit as st
 import numpy as np
 import pandas as pd
