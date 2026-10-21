@@ -1,7 +1,10 @@
 
 streamlit
-psutil
-pandas
-plotly
-
 pytesseract
+opencv-python-headless
+pandas
+numpy
+Pillow
+psutil
+requests
+scikit-learn
